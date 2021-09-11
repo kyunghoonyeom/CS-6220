@@ -13,7 +13,7 @@ https://github.com/kyunghoonyeom/CS-6220/tree/main/Assignment1
 ---
 ### Word Count
 * WordCount.java
-   * Revised https://hadoop.apache.org/docs/stable/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html#Example:_WordCount_v1.0 to remove all punctuations
+   * Revised https://hadoop.apache.org/docs/stable/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html#Example:_WordCount_v1.0 to remove all punctuations before mapping.
 
 In order to compile the java file:
 
@@ -80,13 +80,13 @@ Measured running time by using `time` when calling the script for running progra
 
 ![WordCount](./screenshot/Chart.png)
 
-<br />
-
 ---
-<br />
+
 ### Top 100 Words
 *  Top100Words.java
     * Revised **WordCount.java** to print the top 100 words occurring in the most files
+    * Used HashMap in the mapper to count all occurence
+    * In the reducer, print the words occured the most throughout the text files and print the number of the count
 
 In order to compile the java file:
 
