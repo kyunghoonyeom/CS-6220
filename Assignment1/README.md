@@ -78,10 +78,8 @@ Measured running time by using `time` when calling the script for running progra
 | hiphop_lyrics                      | 38              | 7316              | 10104               |
 | movie_reviews                      | 200             | 767               | 14195               |
 
-<br />
-<p align="center">
-    <img src="./screenshot/Chart.png" alt="WordCountChart" width="700"/>
-<p />
+![WordCount](./screenshot/Chart.png)
+
 <br />
 
 ---
@@ -152,10 +150,8 @@ Measured running time by using `time` when calling the script for running progra
 | drake_lyrics.txt                   | 1               | 793               | 4882                |
 | hiphop_lyrics                      | 38              | 7316              | 9121                |
 | movie_reviews                      | 200             | 767               | 13676               |
-<br />
-<p align="center">
-    <img src="./screenshot/Chart2.png" alt="Top100WordsChart" width="700"/>
-<p />
+
+![Top100Words](./screenshot/Chart2.png)
 
 <br />
 
