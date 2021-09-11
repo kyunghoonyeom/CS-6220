@@ -13,8 +13,7 @@ Student Session: CS6220-A
 ---
 ### Word Count
 * WordCount.java
-    * Taken from https://hadoop.apache.org/docs/stable/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html#Example:_WordCount_v1.0.
-
+   * Revised https://hadoop.apache.org/docs/stable/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html#Example:_WordCount_v1.0 to remove all punctuations
 
 In order to compile the java file:
 
